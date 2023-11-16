@@ -1,0 +1,149 @@
+/*
+* CSS code for altering look of Program 
+* @author - Frank Luo
+* Sources used:
+* https://www.w3schools.com/colors/colors_shades.asp 
+* https://www.w3schools.com/cssref/pr_background-color.php 
+* https://www.w3schools.com/css/css_font.asp 
+* https://developer.mozilla.org/en-US/docs/Web/CSS/background-color 
+* https://www.w3.org/Style/Examples/007/fonts.en.html
+*/
+
+/*
+* Properties for HTML
+*/
+html {
+    height: 100%;
+}
+
+/*
+* Properties for body
+*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f2fefd; /* Light Blue Color */
+    color: #333;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 3rem; /* Footer height */
+}
+
+/*
+* Properties for site title
+*/
+.site-title {
+    text-align: center;
+    font-size: 32px; /* Increased font size */
+    margin: 0.5em 0; /* Adjusted spacing */
+}
+
+/*
+* Properties for header
+*/
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+/*
+* Properties for header nav
+*/
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*
+* Properties for header nav
+*/
+header nav ul li {
+    padding: 0 10px;
+}
+
+/*
+* Properties for header nav
+*/
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+* Properties for header nav
+*/
+header nav ul li a:visited {
+    color: rgb(255, 255, 255);
+}
+
+/*
+* Properties for main
+*/
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+* Properties for photo container
+*/
+.bio-photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/*
+* Properties for bio
+*/
+#bio {
+    flex: 3;
+}
+
+/*
+* Properties for photo
+*/
+#photo {
+    flex: 2;
+    text-align: center;
+}
+
+/*
+* Properties for photo
+*/
+#photo h2 {
+    margin-bottom: 0.5em;
+}
+
+/*
+* Properties for photo
+*/
+.large-photo {
+    border-radius: 50%;
+    width: 400px; /* Adjusting width */
+    height: 400px; /* Adjusting height */
+    object-fit: cover;
+    display: block;
+    margin: 20px auto; /* Centering the image */
+}
+
+/*
+* Properties for footer
+*/
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

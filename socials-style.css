@@ -1,0 +1,165 @@
+/*
+* CSS code for altering look of Program 
+* @author - Frank Luo
+* Sources used:
+* https://www.w3schools.com/colors/colors_shades.asp 
+* https://www.w3schools.com/cssref/pr_background-color.php 
+* https://www.w3schools.com/css/css_font.asp 
+* https://developer.mozilla.org/en-US/docs/Web/CSS/background-color 
+* https://www.w3.org/Style/Examples/007/fonts.en.html
+*/
+
+/*
+* Properties for html and body
+*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+* Properties for body
+*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333; /* Dark gray*/
+    color: white; /* White text */
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+* Properties for site title
+*/
+.site-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 1em 0;
+    color: white;
+}
+
+/*
+* Properties for header
+*/
+header {
+    background-color: #444; /* Slightly lighter gray */
+    color: white;
+    padding: 1rem 0;
+}
+
+/*
+* Properties for header nav
+*/
+header nav {
+    width: 100%;
+}
+
+/*
+* Properties for header nav
+*/
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+/*
+* Properties for header nav
+*/
+header nav ul li {
+    padding: 0 10px;
+}
+
+/*
+* Properties for header nav
+*/
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+* Properties for header nav
+*/
+header nav ul li a:visited {
+    color: white; 
+}
+
+/*
+* Properties for main
+*/
+main {
+    padding: 20px;
+    text-align: center; 
+    flex: 1; 
+}
+
+/*
+* Properties for social links
+*/
+#social-links ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+/*
+* Properties for social links
+*/
+#social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/*
+* Properties for social links
+*/
+#social-links li img {
+    width: 24px; 
+    height: auto;
+    vertical-align: middle;
+}
+
+/*
+* Properties for email and resume
+*/
+#email-me, #resume-download {
+    margin: 20px 0;
+}
+
+/*
+* Properties for email and resume
+*/
+#email-me a, #resume-download a {
+    color: white; 
+    text-decoration: none;
+}
+
+/*
+* Properties for email and resume
+*/
+#email-me a:hover, #resume-download a:hover {
+    text-decoration: underline; 
+}
+
+/*
+* Properties for footer
+*/
+footer {
+    background-color: #444; 
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+/*
+* Properties for email and resume
+*/
+#email-me, #social-links, #resume-download {
+    margin: 45px 0; /* Adds more space between sections */
+}
