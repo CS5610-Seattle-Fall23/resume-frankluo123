@@ -38,6 +38,23 @@ Add screenshots below showing,
 * Your code coverage
 * Your view testing
 
+https://cs5610-seattle-fall23.github.io/resume-frankluo123/ 
+![Working Validation](working1.png)
+![Working Validation](working2.png)
+![Working Validation](working3.png)
+![Working Validation](working4.png)
+![Working Validation](working5.png)
+![Working Validation](working6.png)
+![HTML Validation](htmlvalidation1.png)
+![HTML Validation](htmlvalidation2.png)
+![HTML Validation](htmlvalidation3.png)
+![HTML Validation](htmlvalidation4.png)
+![A11Y Validation](a11y1.png)
+![A11Y Validation](a11y2.png)
+![A11Y Validation](a11y3.png)
+![A11Y Validation](a11y4.png)
+![Tests Validation](tests.png)
+
 Update the README to answer the following questions:
 
  1. Identify the interactive JavaScript elements of your website and explain how you implemented them.
