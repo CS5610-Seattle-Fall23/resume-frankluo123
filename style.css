@@ -147,3 +147,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/*
+* Properties for dark mode
+*/
+.dark-mode {
+    background-color: #333;
+    color: white;
+    /* Add more styles as needed for dark mode */
+}

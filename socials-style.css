@@ -24,7 +24,7 @@ html, body {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #333; /* Dark gray*/
+    background-color: rgb(224, 152, 98); /* Dark gray*/
     color: white; /* White text */
     display: flex;
     flex-direction: column;
@@ -162,4 +162,13 @@ footer {
 */
 #email-me, #social-links, #resume-download {
     margin: 45px 0; /* Adds more space between sections */
+}
+
+/*
+* Properties for dark mode
+*/
+.dark-mode {
+    background-color: #333;
+    color: white;
+    /* Add more styles as needed for dark mode */
 }

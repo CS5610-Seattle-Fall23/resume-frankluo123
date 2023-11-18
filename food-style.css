@@ -134,3 +134,11 @@ footer {
     padding: 1rem 0;
     margin-top: 40px; 
 }
+
+/*
+* Properties for dark mode
+*/
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
