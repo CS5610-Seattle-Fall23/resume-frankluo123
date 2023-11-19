@@ -58,7 +58,19 @@ https://cs5610-seattle-fall23.github.io/resume-frankluo123/
 Update the README to answer the following questions:
 
  1. Identify the interactive JavaScript elements of your website and explain how you implemented them.
+    
+    The user is able to alter the background color as well as the font of the text on the website. In the JavaScript file a toggleTheme function as well as a toggleFont function is used to do this. Two buttons are created on the HTML page that triggers the functions when pressed with the mouse or certain keys on the keyboard are pressed. The dark theme is also tied with the CSS that sets the properties. In conclusion, the JavaScript, HTML, and CSS all work together to make the interactive elements work on the website.
+
  2. What specific feedback did the career services people give you about your resume?
+    
+    They recommended that I put a skills section that listed all the compute science languages I know as well as a course section that lists all the computer science courses I have taken so far. 
+
  3. What aspects of this project did you find particularly challenging and why? Explain how you overcame them.
+   
+    I found figuring out the layout of the website a bit challenging at first because I didn't know what direction I wanted to take it. After I sat down and brainstormed a bit, it became a lot more clear of how I wanted the website to look and I was able to code more efficiently. Also the interactive elements were hard to implement, and I had to research how to make the JavaScript, HTML, and CSS work with one another. 
+
  4. Explain how you created a custom favicon for your page.
+   
+   I was able to draw and create a png file of a bee. I was then able to use an online converter and create a ICO file from the imported png file. 
+   
  5. Write a short essay about what you've learned in this class so far. Think about all the technologies we've used, the activities you've done, the programs you've made, and how far you've come. Describe your experiences in at least 20 sentences with specific examples from this course.
